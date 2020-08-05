@@ -1,0 +1,95 @@
+body{
+    font-family: monospace;
+    font-size: x-large;
+}   
+.Container{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Navbar{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Navbar-1{
+    align-self: center;
+    margin: 15px;
+}
+.Navbar-2{
+    align-self: center;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+}
+h1{
+    color: gray ;
+}
+.Main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.First-Division{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.Span{
+    width: 400px;
+}
+.Button-1{
+    width: 200px;
+}
+.Button-2{
+    width: 200px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    border: 2px solid white;
+    transition: width 0.5s;
+}
+h2{
+    color: grey;
+}
+button:hover{
+    width: 120px;
+    height: 30px;
+    background-color:white;
+    color: grey;
+    border: none;
+    transition: width 0.5s;
+}
+input{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+input:hover{
+    width: 330px;
+    height: 30px;
+    transition: width 0.5s;
+}   
+.Link{
+    color: white;
+}
+.Link:hover{
+    background-color: white;
+    color: grey;
+}
+#link{
+    width: 100px;
+    height: 30px; 
+}
